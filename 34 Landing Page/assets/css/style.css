@@ -1,7 +1,6 @@
-/*Variáveis em CSS*/
 :root {
-  --primary-color: #0a1128;
-  --white-color: #ffffff;
+  --primary-color: #0A1128;   /*var(--primary-color);*/
+  --white-color: #FFFFFF;           /*var(--white);*/
   --gap: 3rem;
 }
 
@@ -10,24 +9,17 @@
   padding: 0;
 }
 
-/*
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Oxanium', cursive;
-*/
-
 html {
   font-size: 62.5%;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: var(--primary-color);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3 ,h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -57,14 +49,14 @@ h6 {
 }
 
 .main-bg {
-  background-image: url('/assets/images/main-bg.svg');
+  background-image: url(../images/main-bg.svg);
   background-size: cover;
   background-position: center center;
   color: var(--white-color);
 }
 
 .white-bg {
-  background: var(--white-color);
+  background-color: var(--white-color);
 }
 
 .main-content {
@@ -75,13 +67,4 @@ h6 {
 
 .section {
   min-height: 100vh;
-}
-
-.menu {
-  background: var(--white-color);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
 }
