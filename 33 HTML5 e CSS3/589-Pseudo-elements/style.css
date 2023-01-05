@@ -1,0 +1,18 @@
+ul li::after {
+  content: ' - ';
+  background: red;
+  color: white;
+}
+
+p::first-letter {
+  font-size: 50px;
+}
+
+p::first-line {
+  background: yellowgreen;
+}
+
+p::selection {
+  background: black;
+  color: white;
+}

@@ -1,0 +1,4 @@
+/*Todos os parágrafos, MENOS o que tem a classe meio*/
+p:not(.meio) {
+  color: blue;
+}
