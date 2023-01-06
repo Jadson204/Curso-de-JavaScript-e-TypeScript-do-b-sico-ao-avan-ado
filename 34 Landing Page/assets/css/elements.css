@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 6rem;
   margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1.2;
@@ -52,5 +52,5 @@ a {
 }
 
 p {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }

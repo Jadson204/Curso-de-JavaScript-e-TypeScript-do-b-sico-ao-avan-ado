@@ -1,6 +1,6 @@
 .intro-content {
   position: relative;
-  top: -6.5rem;
+  top: -8rem;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: var(--gap);
@@ -13,16 +13,16 @@
   justify-content: center;
 }
 
-.intro-img img
-.intro-img svg {
+.intro-img img {
   max-width: 100%;
   height: auto;
 }
 
 .top3-content {
-  height: 100vh;
+  max-width: 64rem;
   display: flex;
   flex-flow: column wrap;
-  max-width: 64rem;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
 }
-
